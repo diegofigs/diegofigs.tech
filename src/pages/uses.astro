@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+  title="Uses | Diego Figueroa"
+  description="Breakdown of technologies used"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="Uses"
+      />
+
+      <section>
+        <h2 class="section-title">Cross Platform</h2>
+        <div class="content">
+          <ul>
+            <li>alacritty - terminal</li>
+            <li>zsh - shell</li>
+            <li>starship - prompt</li>
+            <li>tmux - terminal multiplexer</li>
+            <li>neovim - text editor</li>
+            <li>ranger - file manager</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Linux</h2>
+        <div class="content">
+          <ul>
+            <li>archlinux - operating system</li>
+            <li>awesomewm - window manager</li>
+            <li>rofi - app launcher</li>
+            <li>greetd = greeter daemon</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Development</h2>
+        <div class="content">
+          <ul>
+            <li>Brave - browser</li>
+            <li>Insomnia - http client</li>
+            <li>asdf - language manager</li>
+            <li>docker - containerization</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>
