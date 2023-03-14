@@ -23,6 +23,9 @@ import Hero from "../components/Hero.astro";
             <li>tmux - terminal multiplexer</li>
             <li>neovim - text editor</li>
             <li>ranger - file manager</li>
+            <li>bat - `cat` written in Rust</li>
+            <li>exa - `ls` written in Rust</li>
+            <li>btop - `htop` written in bash</li>
           </ul>
         </div>
       </section>
@@ -32,8 +35,11 @@ import Hero from "../components/Hero.astro";
           <ul>
             <li>archlinux - operating system</li>
             <li>awesomewm - window manager</li>
+            <li>picom - window composer</li>
             <li>rofi - app launcher</li>
-            <li>greetd = greeter daemon</li>
+            <li>greetd - greeter daemon</li>
+            <li>dunst - notification daemon</li>
+            <li>flameshot - screenshot daemon</li>
           </ul>
         </div>
       </section>
@@ -44,6 +50,7 @@ import Hero from "../components/Hero.astro";
             <li>Brave - browser</li>
             <li>Insomnia - http client</li>
             <li>asdf - language manager</li>
+            <li>yadm - dotfiles manager</li>
             <li>docker - containerization</li>
           </ul>
         </div>
@@ -98,7 +105,7 @@ import Hero from "../components/Hero.astro";
   @media (min-width: 50em) {
     .about {
       display: grid;
-      grid-template-columns: 1fr 60% 1fr;
+      grid-template-columns: 1fr 50% 1fr;
     }
 
     .about > :global(:first-child) {
