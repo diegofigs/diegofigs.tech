@@ -8,7 +8,6 @@ import "@fontsource/public-sans";
 import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
-import TrackVitals from "../components/TrackVitals.astro";
 
 interface Props {
   title?: string | undefined;
@@ -21,10 +20,6 @@ const { title, description } = Astro.props;
 <html lang="en">
   <head>
     <MainHead title={title} description={description} />
-    <script>
-      import { inject } from "@vercel/analytics";
-      inject();
-    </script>
   </head>
   <body>
     <div class="stack backgrounds">
@@ -123,6 +118,5 @@ const { title, description } = Astro.props;
         }
       }
     </style>
-    <TrackVitals />
   </body>
 </html>
