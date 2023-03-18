@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/fira-code": "^4.5.13",
     "@fontsource/public-sans": "^4.5.12",
-    "astro": "^2.0.18"
+    "@astrojs/vercel": "^3.2.1",
+    "astro": "^2.1.3"
   }
 }
