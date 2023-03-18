@@ -16,6 +16,9 @@ const {
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
+<meta
+  http-equiv="Content-Security-Policy"
+  content="default-src 'self' diegofigs.tech vitals.vercel-insights.com *.vercel.app" />
 <title>{title}</title>
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
