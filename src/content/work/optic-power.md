@@ -4,32 +4,24 @@ publishDate: 2019-08-01 00:00:00
 img: /assets/optic-power.jpeg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  A technology consulting company based in Puerto Rico
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Full Stack
+  - Testing
 ---
 
-## Level-two heading
+## Overview
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+These achievements highlight my ability to drive innovation, lead teams, and deliver high-impact solutions tailored to diverse industries and client requirements.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+### Snappt
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+For this financial screening and fraud detection web platform, I introduced a Continuous Integration (CI) pipeline that reduced the bug surface rate by over 50%. Additionally, I developed a deployment strategy that led to 42 uninterrupted successful version releases, streamlining logistics and saving approximately one hour per week.
 
-### Level-three heading
+### Walkboard
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+As a team lead for this moving company project, I managed a team of five developers for eight months, spearheading the development of three tools to support client operations. My efforts resulted in a remarkable 300% improvement in the quote-to-sale conversion times, enhancing efficiency and overall performance.
 
-### Level-three heading
+### Blitz.GG
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+For this video game coaching platform, I implemented an Electron hybrid app customized for coaching players. I took ownership of the CSGO web and core app components, contributing significantly to the platform's success and user experience.
